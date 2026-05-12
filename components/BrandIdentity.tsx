@@ -40,13 +40,13 @@ export default function BrandIdentity() {
             <div className="w-10 h-px bg-stone-300 mb-8" />
 
             <p className="text-[9px] font-medium tracking-[0.4em] uppercase text-stone-400 mb-4">
-              The Eather45 Identity
+              The Aether45 Identity
             </p>
             <h2 className="text-2xl lg:text-3xl font-light text-stone-900 mb-5 leading-tight tracking-tight">
               A technical outdoor identity inspired by nature, aerodynamics, and longevity in motion.
             </h2>
             <p className="text-sm text-stone-500 font-light leading-relaxed max-w-sm">
-              Eather45 combines technical protection, lightweight comfort, and refined movement for
+              Aether45 combines technical protection, lightweight comfort, and refined movement for
               people who continue to explore after 45.
             </p>
           </div>

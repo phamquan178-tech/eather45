@@ -100,7 +100,7 @@ export default function LogoApplications() {
             Applied to product. Built into the details.
           </h2>
           <p className="text-sm text-stone-500 font-light max-w-lg">
-            The Eather45 identity lives through fabric, trims, labels, and technical construction.
+            The Aether45 identity lives through fabric, trims, labels, and technical construction.
           </p>
         </div>
 

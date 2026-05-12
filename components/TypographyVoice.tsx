@@ -2,7 +2,7 @@ const typeExamples = [
   {
     label: "Headline",
     note: "Uppercase · Wide spacing · Clean sans-serif",
-    sample: "EATHER45",
+    sample: "AETHER45",
     style: "text-3xl lg:text-4xl font-light tracking-[0.15em]",
   },
   {
@@ -74,7 +74,7 @@ export default function TypographyVoice() {
             <div className="h-px bg-stone-200 mb-8" />
 
             <p className="text-sm text-stone-500 font-light leading-relaxed">
-              Eather45 speaks with quiet confidence — clear, technical, and refined. The brand
+              Aether45 speaks with quiet confidence — clear, technical, and refined. The brand
               avoids hype and focuses on protection, comfort, movement, and long-term use.
             </p>
           </div>

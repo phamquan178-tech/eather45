@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/images/eather45/hero-banner.png"
-          alt="Eather45 — premium outdoor performance"
+          alt="Aether45 — premium outdoor performance"
           fill
           className="object-cover object-center"
           priority
@@ -50,7 +50,7 @@ export default function Hero() {
             className="font-light text-white leading-[0.92] mb-6"
             style={{ fontSize: "clamp(3.8rem, 9.5vw, 9rem)", letterSpacing: "0.12em" }}
           >
-            EATHER45
+            AETHER45
           </h1>
 
           {/* Subtitle */}

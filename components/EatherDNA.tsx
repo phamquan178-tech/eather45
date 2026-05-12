@@ -24,7 +24,7 @@ export default function EatherDNA() {
             <BrandLogo size="medium" variant="dark" className="mb-7" />
             <div className="w-8 h-px bg-stone-300 mb-5" />
             <p className="text-sm text-stone-600 font-light leading-relaxed max-w-xs">
-              Eather45 creates premium outdoor apparel for people who continue
+              Aether45 creates premium outdoor apparel for people who continue
               to move, explore, and perform after 45.
             </p>
             <Link

@@ -8,7 +8,7 @@ export default function StorySection() {
       <div className="absolute inset-0">
         <Image
           src="/images/eather45/men-hiking-group.png"
-          alt="Eather45 — designed for movement, refined for life"
+          alt="Aether45 — designed for movement, refined for life"
           fill
           className="object-cover object-center"
           sizes="100vw"
@@ -35,7 +35,7 @@ export default function StorySection() {
             <span className="font-extralight italic text-stone-300">Refined for life.</span>
           </h2>
           <p className="text-sm lg:text-base text-stone-400 font-light leading-relaxed mb-10 max-w-md">
-            From mountain trails to daily travel, Eather45 blends technical performance with quiet
+            From mountain trails to daily travel, Aether45 blends technical performance with quiet
             confidence.
           </p>
           <Link

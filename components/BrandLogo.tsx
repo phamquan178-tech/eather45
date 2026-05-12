@@ -38,7 +38,7 @@ export default function BrandLogo({
   return (
     <Image
       src={src}
-      alt="Eather45"
+      alt="Aether45"
       width={dimensions.width}
       height={dimensions.height}
       priority

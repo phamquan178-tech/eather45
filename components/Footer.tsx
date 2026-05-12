@@ -76,7 +76,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
         <p className="text-[10px] text-stone-700 font-light tracking-wide">
-          © 2026 Eather45. Built for the second summit.
+          © 2026 Aether45. Built for the second summit.
         </p>
         <div className="flex gap-5">
           {["Privacy Policy", "Terms of Use"].map((item) => (

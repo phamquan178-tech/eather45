@@ -81,7 +81,7 @@ export default function BrandPage() {
           <div className="absolute inset-0 opacity-20">
             <Image
               src="/images/eather45/men-hiking-group.png"
-              alt="Eather45 brand"
+              alt="Aether45 brand"
               fill
               className="object-cover object-center"
               priority
@@ -99,7 +99,7 @@ export default function BrandPage() {
                   className="font-light text-white leading-tight"
                   style={{ fontSize: "clamp(2.5rem, 6vw, 5rem)", letterSpacing: "0.08em" }}
                 >
-                  EATHER45
+                  AETHER45
                 </h1>
                 <p className="text-[10px] font-light tracking-[0.38em] uppercase text-stone-500 mt-3">
                   BRAND SYSTEM — 2026
@@ -119,7 +119,7 @@ export default function BrandPage() {
         {/* ── 1. Logo System ── */}
         <Section bg="#f4f1ea">
           <SectionLabel>01 — Logo System</SectionLabel>
-          <SectionTitle>The Eather45 logo</SectionTitle>
+          <SectionTitle>The Aether45 logo</SectionTitle>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {/* Primary — stacked */}
@@ -153,7 +153,7 @@ export default function BrandPage() {
           </p>
           <div className="w-12 h-px bg-stone-300 mb-6" />
           <p className="text-sm text-stone-500 font-light leading-relaxed max-w-lg">
-            The Eather45 tagline communicates technical intent, endurance, and the brand's focus on
+            The Aether45 tagline communicates technical intent, endurance, and the brand's focus on
             people who continue to move after 45. Use it consistently below the wordmark and in hero
             contexts.
           </p>
@@ -200,7 +200,7 @@ export default function BrandPage() {
           <SectionTitle>Clean, precise, technical.</SectionTitle>
           <div className="space-y-0 divide-y divide-stone-200 max-w-2xl">
             {[
-              { role: "Display", sample: "EATHER45", cls: "text-5xl lg:text-6xl font-light tracking-[0.14em]" },
+              { role: "Display", sample: "AETHER45", cls: "text-5xl lg:text-6xl font-light tracking-[0.14em]" },
               { role: "Tagline", sample: "ENGINEERED FOR LONGEVITY IN MOTION.", cls: "text-[11px] font-light tracking-[0.38em] uppercase" },
               { role: "Keywords", sample: "Technical. Lightweight. Movement.", cls: "text-base font-light tracking-[0.1em]" },
               { role: "Body", sample: "Designed for active people who seek protection and elevated technical style.", cls: "text-sm font-light leading-relaxed" },
@@ -304,7 +304,7 @@ export default function BrandPage() {
           <div className="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col sm:flex-row items-center justify-between gap-6">
             <div>
               <p className="text-[9px] tracking-[0.45em] uppercase text-stone-600 mb-2">
-                Eather45 Brand System — 2026
+                Aether45 Brand System — 2026
               </p>
               <p className="text-xs text-stone-500 font-light">
                 For internal brand use. All assets subject to brand guidelines.

@@ -31,7 +31,7 @@ export default function EmailSignup() {
             Stay Connected
           </p>
           <h2 className="text-2xl lg:text-3xl font-light text-stone-900 mb-3 tracking-tight">
-            Join the Eather45 field notes.
+            Join the Aether45 field notes.
           </h2>
           <p className="text-sm text-stone-500 font-light mb-10 leading-relaxed">
             Gear updates, technical guides, and stories from the field. No noise — only what
@@ -50,7 +50,7 @@ export default function EmailSignup() {
               >
                 <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
               </svg>
-              <p className="text-stone-700 font-light">Thank you for joining Eather45.</p>
+              <p className="text-stone-700 font-light">Thank you for joining Aether45.</p>
             </div>
           ) : (
             <>

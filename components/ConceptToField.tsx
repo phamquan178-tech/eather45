@@ -15,7 +15,7 @@ export default function ConceptToField() {
           <div className="relative overflow-hidden order-2 lg:order-1" style={{ aspectRatio: "4/3" }}>
             <Image
               src="/images/eather45/design-studio.png"
-              alt="Eather45 design studio — from concept to field"
+              alt="Aether45 design studio — from concept to field"
               fill
               className="object-cover object-center"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -32,7 +32,7 @@ export default function ConceptToField() {
             </h2>
             <div className="w-8 h-px bg-stone-300 mb-7" />
             <p className="text-sm text-stone-500 font-light leading-relaxed mb-8 max-w-md">
-              Every Eather45 product starts with technical design, material selection, fit
+              Every Aether45 product starts with technical design, material selection, fit
               refinement, and field-ready construction.
             </p>
 

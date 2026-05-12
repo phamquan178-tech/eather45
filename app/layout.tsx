@@ -9,7 +9,7 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Eather45 — Engineered for Longevity in Motion",
+  title: "Aether45 — Engineered for Longevity in Motion",
   description:
     "Premium outdoor performance apparel designed for active men and women 45+ who seek protection, comfort, and elevated performance style.",
 };

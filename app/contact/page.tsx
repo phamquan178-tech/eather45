@@ -43,7 +43,7 @@ export default function ContactPage() {
               Get in Touch
             </p>
             <h1 className="text-3xl lg:text-4xl font-light text-stone-900 tracking-tight mb-3">
-              Contact Eather45
+              Contact Aether45
             </h1>
             <p className="text-sm text-stone-500 font-light">
               For product inquiries, partnership, or early access requests.

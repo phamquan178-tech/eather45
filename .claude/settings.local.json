@@ -4,7 +4,11 @@
       "PowerShell(cd \"c:\\\\Users\\\\Phan Quan\\\\Documents\\\\eather45\"; $npmPath = \\(Get-Command npm\\).Source; Write-Output \"npm: $npmPath\"; node --version; npm --version)",
       "PowerShell($r = Invoke-WebRequest -Uri \"http://localhost:3000\" -TimeoutSec 10 -UseBasicParsing; $r.Content | Select-String -Pattern \"error|Error|EATHER|eather\" | Select-Object -First 10)",
       "PowerShell(Invoke-WebRequest -Uri \"http://localhost:3000\" -UseBasicParsing -TimeoutSec 5)",
-      "PowerShell(cmd /c \"dir /b \"\"C:\\\\Users\\\\Phan Quan\\\\AppData\\\\Local\\\\GitHubDesktop\"\"\")"
+      "PowerShell(cmd /c \"dir /b \"\"C:\\\\Users\\\\Phan Quan\\\\AppData\\\\Local\\\\GitHubDesktop\"\"\")",
+      "PowerShell(npm run build 2>&1)",
+      "PowerShell(git add -A)",
+      "PowerShell(git commit -m \"Fix brand name from Eather45 to Aether45\")",
+      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\Git\\\\cmd\"; git add -A; if \\($?\\) { git commit -m \"Fix brand name from Eather45 to Aether45\" })"
     ]
   }
 }
