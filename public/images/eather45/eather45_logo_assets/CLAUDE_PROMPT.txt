@@ -1,0 +1,66 @@
+Fix Eather45 logo implementation.
+
+Use the provided real logo image assets. Do not recreate the logo with text, CSS, or hand-drawn SVG.
+
+1. Copy these files into the project:
+/public/images/eather45/logo-dark.png
+/public/images/eather45/logo-light.png
+/public/images/eather45/logo-white.png
+
+2. Replace components/BrandLogo.tsx with an image-based component:
+
+import Image from "next/image";
+
+type BrandLogoProps = {
+  variant?: "dark" | "light" | "white";
+  size?: "small" | "medium" | "large";
+  className?: string;
+};
+
+export default function BrandLogo({
+  variant = "dark",
+  size = "medium",
+  className = "",
+}: BrandLogoProps) {
+  const src =
+    variant === "light"
+      ? "/images/eather45/logo-light.png"
+      : variant === "white"
+      ? "/images/eather45/logo-white.png"
+      : "/images/eather45/logo-dark.png";
+
+  const sizeMap = {
+    small: { width: 150, height: 58 },
+    medium: { width: 280, height: 108 },
+    large: { width: 440, height: 170 },
+  } as const;
+
+  return (
+    <Image
+      src={src}
+      alt="Eather45 logo"
+      width={sizeMap[size].width}
+      height={sizeMap[size].height}
+      priority
+      className={`h-auto w-auto object-contain ${className}`}
+    />
+  );
+}
+
+3. Use it like this:
+- Header on dark background: <BrandLogo variant="light" size="small" />
+- Hero on image/dark overlay: <BrandLogo variant="white" size="medium" />
+- DNA section on off-white: <BrandLogo variant="dark" size="medium" />
+- Footer on black: <BrandLogo variant="light" size="medium" />
+
+4. Remove all old logo code:
+- no typed EATHER 45 wordmark
+- no hand-drawn mountain SVG
+- no CSS recreated tagline
+- no letter-spacing imitation
+
+5. Make sure the logo is never distorted:
+- keep aspect ratio
+- use h-auto and w-auto
+- do not force fixed height and width with CSS that stretches the image
+- on mobile, use small size in header and medium/small in hero

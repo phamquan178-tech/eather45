@@ -1,0 +1,79 @@
+Fix Eather45 website logo using the provided final logo assets.
+
+I have added these files to:
+- /public/images/eather45/logo-dark.png
+- /public/images/eather45/logo-light.png
+- /public/images/eather45/icon-dark.png
+- /public/images/eather45/icon-light.png
+
+Important:
+- Do not recreate the logo with JSX text.
+- Do not recreate the mountain icon with inline SVG.
+- Do not type “EATHER 45” manually as the logo.
+- The logo must come directly from the provided PNG image asset.
+- Do not show a separate typed tagline next to the logo because the logo image already includes the tagline.
+
+Create or update: components/BrandLogo.tsx
+
+Use this:
+
+import Image from "next/image";
+
+type BrandLogoProps = {
+  variant?: "light" | "dark";
+  size?: "small" | "medium" | "large";
+  iconOnly?: boolean;
+  className?: string;
+};
+
+const logoSizes = {
+  small: { width: 150, height: 52 },
+  medium: { width: 300, height: 104 },
+  large: { width: 460, height: 160 },
+};
+
+const iconSizes = {
+  small: { width: 72, height: 36 },
+  medium: { width: 120, height: 60 },
+  large: { width: 180, height: 90 },
+};
+
+export default function BrandLogo({
+  variant = "dark",
+  size = "medium",
+  iconOnly = false,
+  className = "",
+}: BrandLogoProps) {
+  const src = iconOnly
+    ? variant === "light"
+      ? "/images/eather45/icon-light.png"
+      : "/images/eather45/icon-dark.png"
+    : variant === "light"
+      ? "/images/eather45/logo-light.png"
+      : "/images/eather45/logo-dark.png";
+
+  const dimensions = iconOnly ? iconSizes[size] : logoSizes[size];
+
+  return (
+    <Image
+      src={src}
+      alt="Eather45"
+      width={dimensions.width}
+      height={dimensions.height}
+      priority
+      className={`object-contain ${className}`}
+    />
+  );
+}
+
+Use:
+- Header on dark background: <BrandLogo variant="light" size="small" />
+- Hero on image/dark overlay: <BrandLogo variant="light" size="medium" />
+- DNA section on light background: <BrandLogo variant="dark" size="medium" />
+- Footer on dark background: <BrandLogo variant="light" size="medium" />
+
+Check:
+- Logo is not stretched.
+- Logo is not cropped.
+- Logo stays sharp.
+- Header remains clean on mobile.
